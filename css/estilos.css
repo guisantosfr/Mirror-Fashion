@@ -45,6 +45,8 @@ header{
 body{
     color: #333333;
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+
+    padding-top: 55px;
 }
 
 .container{
@@ -229,6 +231,10 @@ footer .container{
 .social li{
     float: left;
     margin-left: 25px;
+}
+
+.form-control:invalid{
+    border: 1px solid #CC0000;
 }
 
 @media(max-width: 939px){
