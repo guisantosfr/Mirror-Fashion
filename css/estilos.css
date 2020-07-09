@@ -1,3 +1,14 @@
+body{
+    color: #333333;
+    font-family: 'PT Sans', sans-serif;
+
+    padding-top: 55px;
+}
+
+header{
+    position: relative;
+}
+
 .sacola{
     background-image: url(../img/sacola.png);
     background-repeat: no-repeat;
@@ -9,10 +20,6 @@
     width: 140px;
 
     padding-top: 8px;
-}
-
-header{
-    position: relative;
 }
 
 .menu-opcoes{
@@ -40,13 +47,6 @@ header{
 
 .menu-opcoes a:active{
     color: #867DC6;
-}
-
-body{
-    color: #333333;
-    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
-
-    padding-top: 55px;
 }
 
 .container{
@@ -158,6 +158,8 @@ body{
 }
 
 .painel h2{
+    font-family: 'Bad Script', sans-serif;
+
     font-size: 24px;
     font-weight: bold;
     text-transform: uppercase;
